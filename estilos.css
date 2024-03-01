@@ -1,0 +1,42 @@
+.fondobody{
+    background-color: white;
+}
+.mostrarBtn {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+ 
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+/* Estilos opcionales para la imagen */
+.imagen {
+    display: none; /* La imagen está oculta inicialmente */
+    max-width: 100%;
+    height: auto;
+}
+.bordesProductos{
+    background-color: rgba(167, 167, 167, 0.514);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 50px;
+    border-spacing: 5px 5px;
+    border: 5px solid rgba(161, 161, 161, 0.281);
+    text-align: center;
+}
+.tamañoimagen{
+    height: 65px;
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+para que me queden separados cada columna al lado del otro
+}
